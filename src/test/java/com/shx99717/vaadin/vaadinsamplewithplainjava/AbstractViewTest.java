@@ -1,4 +1,4 @@
-package org.vaadin.example;
+package com.shx99717.vaadin.vaadinsamplewithplainjava;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
