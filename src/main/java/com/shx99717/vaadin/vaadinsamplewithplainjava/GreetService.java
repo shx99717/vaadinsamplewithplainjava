@@ -1,4 +1,4 @@
-package org.vaadin.example;
+package com.shx99717.vaadin.vaadinsamplewithplainjava;
 
 public class GreetService {
 
@@ -6,7 +6,7 @@ public class GreetService {
         if (name == null || name.isEmpty()) {
             return "Hello anonymous user";
         } else {
-            return "Hello " + name;
+            return "Hello 3 " + name;
         }
     }
 }

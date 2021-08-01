@@ -1,4 +1,4 @@
-package org.vaadin.example;
+package com.shx99717.vaadin.vaadinsamplewithplainjava;
 
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
@@ -14,7 +14,7 @@ import com.vaadin.flow.server.PWA;
  * The main view contains a button and a click listener.
  */
 @Route("")
-@PWA(name = "Project Base for Vaadin", shortName = "Project Base", enableInstallPrompt = false)
+@PWA(name = "Project base for Plain Java", shortName = "Vaadin Sample With Plain Java", enableInstallPrompt = false)
 @CssImport("./styles/shared-styles.css")
 @CssImport(value = "./styles/vaadin-text-field-styles.css", themeFor = "vaadin-text-field")
 public class MainView extends VerticalLayout {
