@@ -28,3 +28,12 @@ Profile `it` adds the following parameters to run integration tests:
 
 For a full Vaadin application example, there are more choices available also from [vaadin.com/start](https://vaadin.com/start) page.
 
+
+### Debug while using `jetty-maven-plugin`
+
+Start the server in debug mode
+```
+export MAVEN_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=y"
+mvn jetty:run
+```
+It will wait for a debugger to attach to the port 5005 
